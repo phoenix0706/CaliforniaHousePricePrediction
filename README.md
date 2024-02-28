@@ -4,4 +4,10 @@
 
 1. [Github Account](https://github.com)
 2. [VS Code IDE](https://code.visualstudio.com/)
-3. [Heroku](https://www.heroku.com/)
+3. [Streamlit](https://streamlit.io/)
+
+Create a new environment
+
+```
+conda create -p envml python==3.7 -y
+```

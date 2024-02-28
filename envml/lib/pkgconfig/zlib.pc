@@ -1,0 +1,13 @@
+prefix=/home/hp/proj/HousePricePrediction/envml
+exec_prefix=/home/hp/proj/HousePricePrediction/envml
+libdir=/home/hp/proj/HousePricePrediction/envml/lib
+sharedlibdir=/home/hp/proj/HousePricePrediction/envml/lib
+includedir=/home/hp/proj/HousePricePrediction/envml/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
